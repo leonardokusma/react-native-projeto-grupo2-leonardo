@@ -7,6 +7,7 @@ import hamburger from '../assets/Ícones/PNG/Hamburguer.png';
 
 
 export default function Header({title,user}){
+  
   const fontLoaded = useFonts({
   Poppins_400Regular
   });
@@ -17,7 +18,7 @@ export default function Header({title,user}){
     return(
         <ImageBackground source={imageBack}
         style={styles.background}
-        resizeMode='cover'>
+        resizeMode= 'cover'>
         <View style={styles.header}>
           <Image source={hamburger} style={styles.iconeHambur}/>
           <Image source={user} style={styles.iconeUser}/>
@@ -32,19 +33,19 @@ const styles = StyleSheet.create({
     display:'flex',
     flexDirection:'row',
     alignItems:'center',
-    paddingTop:'14 %',
+    paddingTop:'14%',
     justifyContent:'space-between'
   },
   background:{
     width:'100%',
-    height:'65%'
   },
   headerText:{
     paddingTop:'20%',
     fontSize: 20,
     fontFamily:'Poppins_400Regular',
     color:'#3772ff',
-    textAlign:'center'
+    textAlign:'center',
+    paddingBottom:'5%'
   },
   iconeHambur:{
     width:24,

@@ -1,14 +1,14 @@
 import React from "react";
 import dunga from '../assets/Imagens/Imagem Dunga.png'
-import felicia from '../assets/Imagens/Imagem Felícia.png'
-import felicia from '../assets/Imagens/Imagem Felícia.png'
-import sirius from '../assets/Imagens/Imagem Sirius.png'
-import fiona from '../assets/Imagens/Imagem Fiona.png'
-import sid from '../assets/Imagens/Imagem Sid.png'
-import yoda from '../assets/Imagens/Imagem Yoda.png'
-import lua from '../assets/Imagens/Imagem Lua.png'
-import amora from '../assets/Imagens/Imagem Amora.png'
-import zelda from '../assets/Imagens/Imagem Zelda.png'
+import felicia from '../assets/Imagens/Imagens Felícia.png'
+import sirius from '../assets/Imagens/Imagem - sirius.png'
+
+import fiona from '../assets/Imagens/Imagem-Fiona.png'
+import sid from '../assets/Imagens/Imagem - Sid.png'
+import yoda from '../assets/Imagens/Imagem - Yoda.png'
+import lua from '../assets/Imagens/Imagenm Lua.png'
+import amora from '../assets/Imagens/Imagem - Amora.png'
+import zelda from '../assets/Imagens/Imagem - Zelda.png'
 
 const pets = {
     titulo: "Pets",

@@ -9,10 +9,3 @@ return (
     </NavigationContainer>
   )
 }
-
-/*
-
-
-
-
-  */

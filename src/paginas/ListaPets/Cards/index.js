@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
         height:16,
         resizeMode:'contain',
         position:'absolute',
-        start:'-16%',
+        left:'-16%',
     },
     speak:{
         marginVertical:'1%',

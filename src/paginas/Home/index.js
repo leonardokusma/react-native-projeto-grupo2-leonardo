@@ -5,7 +5,7 @@ import hamburger from '../../assets/Ícones/PNG/Hamburguer.png';
 import Header from '../header';
 import Card from '../ListaPets/Cards';
 import pets from '../../mocks/pets'
-
+import Lista from '../ListaPets/index'
 
 export default function Home(){
 
@@ -13,31 +13,27 @@ export default function Home(){
 
     return(
       <View style={styles.conteiner}>
-        <Header user={user} title={title} style={styles.header} contentContainerStyle={styles.scrollContent}></Header>
-        <ScrollView style={styles.ScrollView}>
-          <Card image={pets.lista[0].image} age={pets.lista[0].age} caract={pets.lista[0].characteristics}
-          size={pets.lista[0].size}local={pets.lista[0].from} name={pets.lista[0].name}
-          />
+        <ScrollView style={styles.scroll}>
+        <Header user={user} title={title} ></Header>
+            <Lista/>
         </ScrollView>
         
       </View>
     )
 }
 
+
 const styles = StyleSheet.create({
   conteiner:{
     flex:1
   },
-  header:{
-    position:'absolute',
-  },
   scroll:{
     flex:1
   },
-  scrollContent: {
-    paddingTop: 210, 
-    paddingHorizontal: 16, 
-    paddingBottom: 20, 
-  },
+
 })
 
+/*<Card image={pets.lista[0].image} age={pets.lista[0].age} caract={pets.lista[0].characteristics}
+          size={pets.lista[0].size}local={pets.lista[0].from} name={pets.lista[0].name}
+          />
+          */

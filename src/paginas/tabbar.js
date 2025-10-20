@@ -1,6 +1,6 @@
 import {View,Text,StyleSheet,Image} from 'react-native';
 import pets from '../assets/Ícones/PNG/pets.png'
-import messages from '../assets/Ícones/PNG/mensagens'
+import messages from '../assets/Ícones/PNG/mensagens (1).png'
 
 export default function Tabbar(){
 
@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
         justifyContent:'space-between',
         alignItems:'center',
         width:'100%',
-        height:60
+        height:"2%"
     },
     image:{
         height:20,

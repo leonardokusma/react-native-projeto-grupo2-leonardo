@@ -6,6 +6,7 @@ import Header from '../header';
 import Card from '../ListaPets/Cards';
 import pets from '../../mocks/pets'
 import Lista from '../ListaPets/index'
+import Tabbar from '../tabbar';
 
 export default function Home(){
 
@@ -16,6 +17,7 @@ export default function Home(){
         <ScrollView style={styles.scroll}>
         <Header user={user} title={title} ></Header>
             <Lista/>
+            <Tabbar/>
         </ScrollView>
         
       </View>
@@ -25,7 +27,8 @@ export default function Home(){
 
 const styles = StyleSheet.create({
   conteiner:{
-    flex:1
+    flex:1,
+    height:'100%'
   },
   scroll:{
     flex:1

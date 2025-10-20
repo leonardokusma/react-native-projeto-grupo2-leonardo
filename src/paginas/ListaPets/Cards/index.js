@@ -4,7 +4,7 @@ import chat from '../../../assets/Ícones/PNG/chat (5).png';
 import {useFonts,Poppins_400Regular,Poppins_600SemiBold} from '@expo-google-fonts/poppins'
 
 
-export default function Card({image,name,age,size,caract,local}){
+export default function Card({image,name,age,size,characteristics,local}){
     const fontLoaded = useFonts({
       Poppins_400Regular,
       Poppins_600SemiBold
@@ -21,7 +21,7 @@ export default function Card({image,name,age,size,caract,local}){
                 <Text style={styles.name}>{name}</Text>
                 <Text style={styles.about}>{age}</Text>
                 <Text style={styles.about}>{size}</Text>
-                <Text style={styles.about}>{caract}</Text>
+                <Text style={styles.about}>{characteristics}</Text>
                 <Text style={styles.local}>{local}</Text>
                 <View style={{alignItems:'center'}}>
                     <Text style={styles.speak}>Falar com o responsável</Text>

@@ -19,7 +19,7 @@ const pets = {
             age: '2 anos',
             size: 'Porte pequeno',
             characteristics:'Calmo e educado',
-            from: 'Rio de Janeiro (RJ)'
+            local: 'Rio de Janeiro (RJ)'
         },
         {
             name:'Felícia',
@@ -35,7 +35,7 @@ const pets = {
             age: '6 meses',
             size: 'Porte grande',
             characteristics:'ativo e educado',
-            from: 'Duque de Caxias (RJ)'
+            local: 'Duque de Caxias (RJ)'
         },
         {
             name:'Fiona',
@@ -43,7 +43,7 @@ const pets = {
             age: '3 anos',
             size: 'Porte pequeno',
             characteristics:'calma e carinhosa',
-            from: 'São Gonçalo (RJ)'
+            local: 'São Gonçalo (RJ)'
         },
         {
             name:'Sid',
@@ -51,7 +51,7 @@ const pets = {
             age: '8 meses',
             size: 'Porte médio/grande',
             characteristics:'Brincalhão e amável',
-            from: 'Rio de Janeiro (RJ)'
+            local: 'Rio de Janeiro (RJ)'
         },
         {
             name:'Yoda',
@@ -59,7 +59,7 @@ const pets = {
             age: '1 ano',
             size: 'Porte médio',
             characteristics:'ativo e carinhoso',
-            from: 'Nova Iguaçu (RJ)'
+            local: 'Nova Iguaçu (RJ)'
         },
         {
             name:'Lua',
@@ -67,7 +67,7 @@ const pets = {
             age: '6 meses',
             size: 'Porte médio',
             characteristics:'Ativa e carinhosa',
-            from: 'Duque de Caxias (RJ)'
+            local: 'Duque de Caxias (RJ)'
         },
         {
             name:'Amora',
@@ -75,7 +75,7 @@ const pets = {
             age: '45 dias',
             size: 'Porte grande',
             characteristics:'Calma e carinhosa',
-            from: 'São Gonçalo (RJ)'
+            local: 'São Gonçalo (RJ)'
         },
         {
             name:'Zelda',
@@ -83,7 +83,7 @@ const pets = {
             age: '5 meses',
             size: 'Porte médio',
             characteristics:'Ativa e amável',
-            from: 'Rio de Janeiro (RJ)'
+            local: 'Rio de Janeiro (RJ)'
         }
     ]
 };

@@ -14,7 +14,7 @@ export default function ListaPets(){
         <FlatList
             data={lista}
             renderItem={({item}) => <Card {...item}/>}
-            keyExtractor={({nome}) => nome}
+            keyExtractor={({name}) => name}
         />
     )
 

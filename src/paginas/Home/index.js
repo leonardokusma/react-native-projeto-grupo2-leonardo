@@ -12,12 +12,11 @@ export default function Home(){
 
     return(
       <SafeAreaView style={styles.conteiner}>
-        <ScrollView style={styles.scroll}>
         <Header user={user} title={title} ></Header>
+        <ScrollView style={styles.scroll}>
             <Lista style={styles.lista}/>
             <Tabbar/>
         </ScrollView>
-        
       </SafeAreaView>
     )
 }

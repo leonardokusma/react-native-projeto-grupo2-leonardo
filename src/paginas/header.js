@@ -40,12 +40,12 @@ const styles = StyleSheet.create({
     width:'100%',
   },
   headerText:{
-    paddingTop:'20%',
+    paddingTop:'18%',
     fontSize: 20,
     fontFamily:'Poppins_400Regular',
     color:'#3772ff',
     textAlign:'center',
-    paddingBottom:'5%'
+    marginBlockEnd:'10%'
   },
   iconeHambur:{
     width:24,
@@ -59,6 +59,6 @@ const styles = StyleSheet.create({
     height:40,
     resizeMode:'contain',
     paddingLeft:'8%',
-    paddingRight:'8%'
+    paddingRight:'12%'
   }
 })

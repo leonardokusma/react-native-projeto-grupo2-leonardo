@@ -15,6 +15,7 @@ export default function ListaPets(){
             data={lista}
             renderItem={({item}) => <Card {...item}/>}
             keyExtractor={({name}) => name}
+            style={{marginBlockEnd:'1%', paddingBottom:'5%'}}
         />
     )
 
